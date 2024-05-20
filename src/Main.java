@@ -16,7 +16,7 @@ public class Main {
 
     }
     public static void revisar(Tarea tarea){
-        System.out.println(tarea.toString());
+        System.out.println(tarea.toString()); // probando los comentarios por aqui.
         System.out.println("la tarea"+tarea.getDescripcion()+"esta realizada? 1.si / 2.no");
 
         int decision = leer.nextInt();
